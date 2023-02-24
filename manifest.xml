@@ -8,11 +8,11 @@
 	<DefaultLocale>en-US</DefaultLocale>
 	<DisplayName DefaultValue="Outlook Add-in Demo"/>
 	<Description DefaultValue="Outlook Add-in POC"/>
-	<IconUrl DefaultValue="https://www.contoso.com/assets/icon-64.png"/>
-	<HighResolutionIconUrl DefaultValue="https://www.contoso.com/assets/icon-128.png"/>
+	<IconUrl DefaultValue="https://github.com/xiaoliyu/myaddin/assets/icon-64.png"/>
+	<HighResolutionIconUrl DefaultValue="https://github.com/xiaoliyu/myaddin/assets/icon-128.png"/>
 	<SupportUrl DefaultValue="https://www.contoso.com/help"/>
 	<AppDomains>
-		<AppDomain>https://www.contoso.com</AppDomain>
+		<AppDomain>https://www.github.com</AppDomain>
 	</AppDomains>
 	<Hosts>
 		<Host Name="Mailbox"/>
@@ -25,13 +25,13 @@
 	<FormSettings>
 		<Form xsi:type="ItemRead">
 			<DesktopSettings>
-				<SourceLocation DefaultValue="https://www.contoso.com/taskpane.html"/>
+				<SourceLocation DefaultValue="https://github.com/xiaoliyu/myaddin/taskpane.html"/>
 				<RequestedHeight>275</RequestedHeight>
 			</DesktopSettings>
 		</Form>
 		<Form xsi:type="ItemEdit">
 			<DesktopSettings>
-				<SourceLocation DefaultValue="https://www.contoso.com/taskpane.html"/>
+				<SourceLocation DefaultValue="https://github.com/xiaoliyu/myaddin/taskpane.html"/>
 			</DesktopSettings>
 		</Form>
 	</FormSettings>
@@ -134,17 +134,17 @@
 			</Hosts>
 			<Resources>
 				<bt:Images>
-					<bt:Image id="icon16" DefaultValue="https://www.contoso.com/assets/icon-16.png"/>
-					<bt:Image id="icon32" DefaultValue="https://www.contoso.com/assets/icon-32.png"/>
-					<bt:Image id="icon80" DefaultValue="https://www.contoso.com/assets/icon-80.png"/>
+					<bt:Image id="icon16" DefaultValue="https://github.com/xiaoliyu/myaddin/assets/icon-16.png"/>
+					<bt:Image id="icon32" DefaultValue="https://github.com/xiaoliyu/myaddin/assets/icon-32.png"/>
+					<bt:Image id="icon80" DefaultValue="https://github.com/xiaoliyu/myaddin/assets/icon-80.png"/>
 				</bt:Images>
 				<bt:Urls>		
-				 	<bt:Url id="Commands.Url" DefaultValue="https://www.contoso.com/commands.html" />			
-					<bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://www.contoso.com/taskpane.html"/>
-					<bt:Url id="messageComposeTaskPaneUrl" DefaultValue="https://www.contoso.com/taskpane.html"/>
-					 <bt:Url id="WebViewRuntime.Url" DefaultValue="https://www.contoso.com/commands.html" />					 
+				 	<bt:Url id="Commands.Url" DefaultValue="https://github.com/xiaoliyu/myaddin/commands.html" />			
+					<bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://github.com/xiaoliyu/myaddin/taskpane.html"/>
+					<bt:Url id="messageComposeTaskPaneUrl" DefaultValue="https://github.com/xiaoliyu/myaddin/taskpane.html"/>
+					 <bt:Url id="WebViewRuntime.Url" DefaultValue="https://github.com/xiaoliyu/myaddin/commands.html" />					 
           			 <!-- Entry needed for Outlook Desktop. -->
-          			 <bt:Url id="JSRuntime.Url" DefaultValue="https://www.contoso.com/commands.js" />
+          			 <bt:Url id="JSRuntime.Url" DefaultValue="https://github.com/xiaoliyu/myaddin/commands.js" />
 				</bt:Urls>
 				<bt:ShortStrings>
 					<bt:String id="groupLabel" DefaultValue="ECM Outlook Addin"/>
