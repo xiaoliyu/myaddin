@@ -4,7 +4,7 @@
 	xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
 	<Id>71f8d2b3-fd0b-49b3-8319-5388081e935e</Id>
 	<Version>1.0.0.0</Version>
-	<ProviderName>Contoso</ProviderName>
+	<ProviderName>xiaoliyu</ProviderName>
 	<DefaultLocale>en-US</DefaultLocale>
 	<DisplayName DefaultValue="Outlook Add-in Demo"/>
 	<Description DefaultValue="Outlook Add-in POC"/>
@@ -12,7 +12,7 @@
 	<HighResolutionIconUrl DefaultValue="https://xiaoliyu.github.io/myaddin/assets/icon-128.png"/>
 	<SupportUrl DefaultValue="https://www.contoso.com/help"/>
 	<AppDomains>
-		<AppDomain>https://www.github.com</AppDomain>
+		<AppDomain>https://xiaoliyu.github.io</AppDomain>
 	</AppDomains>
 	<Hosts>
 		<Host Name="Mailbox"/>
