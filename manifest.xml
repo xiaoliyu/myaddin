@@ -8,8 +8,8 @@
 	<DefaultLocale>en-US</DefaultLocale>
 	<DisplayName DefaultValue="Outlook Add-in Demo"/>
 	<Description DefaultValue="Outlook Add-in POC"/>
-	<IconUrl DefaultValue="https://raw.githubusercontent.com/xiaoliyu/myaddin/main/assets/icon-64.png"/>
-	<HighResolutionIconUrl DefaultValue="https://raw.githubusercontent.com/xiaoliyu/myaddin/main/assets/icon-128.png"/>
+	<IconUrl DefaultValue="https://xiaoliyu.github.io/myaddin/assets/icon-64.png"/>
+	<HighResolutionIconUrl DefaultValue="https://xiaoliyu.github.io/myaddin/assets/icon-128.png"/>
 	<SupportUrl DefaultValue="https://www.contoso.com/help"/>
 	<AppDomains>
 		<AppDomain>https://www.github.com</AppDomain>
@@ -25,13 +25,13 @@
 	<FormSettings>
 		<Form xsi:type="ItemRead">
 			<DesktopSettings>
-				<SourceLocation DefaultValue="https://raw.githubusercontent.com/xiaoliyu/myaddin/main/taskpane.html"/>
+				<SourceLocation DefaultValue="https://xiaoliyu.github.io/myaddin/taskpane.html"/>
 				<RequestedHeight>275</RequestedHeight>
 			</DesktopSettings>
 		</Form>
 		<Form xsi:type="ItemEdit">
 			<DesktopSettings>
-				<SourceLocation DefaultValue="https://raw.githubusercontent.com/xiaoliyu/myaddin/main/taskpane.html"/>
+				<SourceLocation DefaultValue="https://xiaoliyu.github.io/myaddin/taskpane.html"/>
 			</DesktopSettings>
 		</Form>
 	</FormSettings>
@@ -134,17 +134,17 @@
 			</Hosts>
 			<Resources>
 				<bt:Images>
-					<bt:Image id="icon16" DefaultValue="https://raw.githubusercontent.com/xiaoliyu/myaddin/main/assets/icon-16.png"/>
-					<bt:Image id="icon32" DefaultValue="https://raw.githubusercontent.com/xiaoliyu/myaddin/main/assets/icon-32.png"/>
-					<bt:Image id="icon80" DefaultValue="https://raw.githubusercontent.com/xiaoliyu/myaddin/main/assets/icon-80.png"/>
+					<bt:Image id="icon16" DefaultValue="https://xiaoliyu.github.io/myaddin/assets/icon-16.png"/>
+					<bt:Image id="icon32" DefaultValue="https://xiaoliyu.github.io/myaddin/assets/icon-32.png"/>
+					<bt:Image id="icon80" DefaultValue="https://xiaoliyu.github.io/myaddin/assets/icon-80.png"/>
 				</bt:Images>
 				<bt:Urls>		
-				 	<bt:Url id="Commands.Url" DefaultValue="https://raw.githubusercontent.com/xiaoliyu/myaddin/main/commands.html" />			
-					<bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://raw.githubusercontent.com/xiaoliyu/myaddin/main/taskpane.html"/>
-					<bt:Url id="messageComposeTaskPaneUrl" DefaultValue="https://raw.githubusercontent.com/xiaoliyu/myaddin/main/taskpane.html"/>
-					 <bt:Url id="WebViewRuntime.Url" DefaultValue="https://raw.githubusercontent.com/xiaoliyu/myaddin/main/commands.html" />					 
+				 	<bt:Url id="Commands.Url" DefaultValue="https://xiaoliyu.github.io/myaddin/commands.html" />			
+					<bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://xiaoliyu.github.io/myaddin/taskpane.html"/>
+					<bt:Url id="messageComposeTaskPaneUrl" DefaultValue="https://xiaoliyu.github.io/myaddin/taskpane.html"/>
+					 <bt:Url id="WebViewRuntime.Url" DefaultValue="https://xiaoliyu.github.io/myaddin/commands.html" />					 
           			 <!-- Entry needed for Outlook Desktop. -->
-          			 <bt:Url id="JSRuntime.Url" DefaultValue="https://raw.githubusercontent.com/xiaoliyu/myaddin/main/commands.js" />
+          			 <bt:Url id="JSRuntime.Url" DefaultValue="https://xiaoliyu.github.io/myaddin/commands.js" />
 				</bt:Urls>
 				<bt:ShortStrings>
 					<bt:String id="groupLabel" DefaultValue="ECM Outlook Addin"/>
